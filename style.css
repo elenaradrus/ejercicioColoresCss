@@ -30,15 +30,7 @@ caption {
     color: blue;
 }
 
-th[scope=col], .especial {
-    color: red;
-}
-
 th[scope=col] {
-    color: darkorange;
-}
-
-th[scope=row], .especial {
     color: darkorange;
 }
 
