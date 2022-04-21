@@ -30,26 +30,21 @@ caption {
     color: blue;
 }
 
-tr th {
-    color:darkorange;
+th[scope=col], .especial {
+    color: red;
 }
 
 th[scope=col] {
     color: darkorange;
 }
 
-
-th .especial {
+th[scope=row], .especial {
     color: darkorange;
 }
 
 th[scope=row] {
     color: red;
 }
-
-/* th .row {
-    color: red;
-} */
 
 tr td {
     color: green;
@@ -67,7 +62,6 @@ td strong {
     color:fuchsia;
 }
 
-#aditional p a {
+#adicional * a {
     color: green;
-
 }
