@@ -1,0 +1,73 @@
+#titulo {
+    color: teal;
+}
+p strong {
+    color: red;
+}
+
+.destacado {
+    color: darkorange;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+p a {
+    color: red;
+}
+
+p em {
+    color: blue;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    color: blue;
+}
+
+tr th {
+    color:darkorange;
+}
+
+th[scope=col] {
+    color: darkorange;
+}
+
+
+th .especial {
+    color: darkorange;
+}
+
+th[scope=row] {
+    color: red;
+}
+
+/* th .row {
+    color: red;
+} */
+
+tr td {
+    color: green;
+}
+
+td strong {
+    color: darkorange;
+}
+
+#adicional p {
+    color:olive;
+}
+
+#especial {
+    color:fuchsia;
+}
+
+#aditional p a {
+    color: green;
+
+}
