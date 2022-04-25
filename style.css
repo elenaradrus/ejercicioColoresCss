@@ -1,11 +1,11 @@
 #titulo {
     color: teal;
 }
-p strong {
+p strong, a, tfoot, th[scope="row"] {
     color: red;
 }
 
-.destacado {
+span.destacado, th strong, th.especial {
     color: darkorange;
 }
 
@@ -13,37 +13,34 @@ p strong {
     color: blue;
 }
 
-p a {
+a {
     color: red;
 }
 
-p em {
+a em {
     color: blue;
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 10px;
+span.especial {
+    color: fuchsia;
 }
 
 caption {
     color: blue;
 }
 
-th[scope=col] {
-    color: darkorange;
-}
-
-th[scope=row] {
-    color: red;
-}
-
-tr td {
-    color: green;
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
 }
 
 td strong {
     color: darkorange;
+}
+
+tr td {
+    color: green;
 }
 
 #adicional p {
@@ -54,6 +51,6 @@ td strong {
     color:fuchsia;
 }
 
-#adicional * a {
+#adicional a {
     color: green;
 }
